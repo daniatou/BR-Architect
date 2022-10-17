@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.pd {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mt-b {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid gainsboro;
+}
+
+.opacity {
+    opacity: .7;
+}
+
+p {
+    font-size: .8em;
+}
+
+[class*="col"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* For Tablet divices */
+
+@media screen and (min-width: 600px) {
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+
+}
+
+/* For Laptop devices  */
+
+@media screen and (min-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .menu {
+        display: none;
+    }
+
+    header {
+        background-image: url(images/section.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 40vh !important;
+    }
+
+}
+
+.float-right {
+    float: right;
+}
+
+header {
+    background-image: url(images/section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px white;
+    /* position: fixed;
+    z-index: 3; */
+
+}
+
+.project-item img {
+    width: 100%;
+
+}
+
+.project-item {
+    position: relative;
+
+}
+
+.img-desc {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-size: 1em;
+    width: 200px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.img-desc:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.client img {
+    width: 100%;
+}
+
+.client button {
+    background-color: gainsboro;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: black;
+    width: 50%;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+
+
+footer img{
+    width: 100%;
+}
+
+.copy{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
